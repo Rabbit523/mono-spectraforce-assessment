@@ -15,3 +15,47 @@ You can clone the repository to your local machine by running:
 
 ```bash
 git clone <repository_url>
+```
+
+### 2. Install Dependencies
+
+- Navigate to the root directory of the project:
+
+```bash
+    cd <project_directory>
+```
+
+- And install the necessary packages for the server:
+
+```bash
+    npm install or yarn install
+```
+
+- Then, navigate to the client directory:
+
+```bash
+    cd frontend && yarn install
+```
+
+- And build backend to bundle typescript into javascript:
+
+```bash
+    cd ../backend && yarn backend:build
+```
+
+### 3. Run the Application
+
+```bash
+    cd ../ && yarn start
+```
+
+## Application Usage
+
+The application presents a login form. Upon successful authentication, users can view a paginated list of resources. Users can add and remove resources.
+
+## Features
+
+- User Authentication
+- CRUD operations for resources
+- Pagination of resources list
+- Logout functionality
